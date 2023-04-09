@@ -1,0 +1,97 @@
+@media screen and (min-width: 600px) {
+    form {
+        width: 60%;
+    }
+
+    #menu {
+        width: 15%;
+    }
+  
+    nav {
+        width: 25%;
+    }
+
+    .back {
+        width: 10%;
+    }
+
+    .leftModal {
+        flex-basis: 40%;
+    }
+
+    .rigthModal {
+        flex-basis: 60%;
+    }
+
+    .rigthModal h1 {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .countries {
+        grid-template-columns: repeat(4, minmax(250px, 280px));
+    }
+
+    .search-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    form {
+        width: 40%;
+    }
+
+    #menu {
+        width: 7%;
+    }
+
+    nav {
+        width: 13%;
+        top: 50px;
+        right: 0;
+    }
+
+    button[type="submit"] {
+        flex-basis: 20%;
+    }
+
+    input[type="search"] {
+        flex-basis: 79%;
+    }
+
+    .back {
+        width: 5%;
+    }
+
+    .modal {
+        flex-direction: row;
+        gap: 120px;
+        align-items: start;
+    }
+
+    .leftModal {
+        flex-basis: 40%;
+    }
+
+    .rigthModal {
+        flex-basis: 60%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .rigthModal h1 {
+        flex-basis: 100%;
+    }
+
+    .innerLeft, .InnerRight {
+        flex-basis: 50%;
+    }
+
+    .borders {
+        display: flex;
+        align-items: center;
+        flex-basis: 100%;
+        justify-content: start;
+    }
+}
