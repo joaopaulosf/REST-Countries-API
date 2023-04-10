@@ -3,7 +3,7 @@
         width: 60%;
     }
 
-    #menu {
+    section > label {
         width: 15%;
     }
   
@@ -11,7 +11,7 @@
         width: 25%;
     }
 
-    .back {
+    section > button {
         width: 10%;
     }
 
@@ -42,7 +42,7 @@
         width: 40%;
     }
 
-    #menu {
+    section > label {
         width: 7%;
     }
 
@@ -60,7 +60,7 @@
         flex-basis: 79%;
     }
 
-    .back {
+    section > button {
         width: 5%;
     }
 

@@ -1,9 +1,10 @@
 export default function showCountryDetails(data) {
     const countryModal = document.querySelector(".countryModal")
     countryModal.classList.toggle("show")
+    countryModal.classList.add("backgroundSwap")
     countryModal.innerHTML =
         `
-            <button class="back"></button>
+            <button class="back colorSwap"></button>
             <section class="modal">
                 <section class="leftModal">
                     <img src="${data.flags.png}" alt="${data.flags.alt}">
