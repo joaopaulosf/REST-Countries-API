@@ -17,7 +17,7 @@ This is a solution to the [Rest Countries API challenge on Frontend Mentor](http
 
 ### Links
 
-- [Demo](https://rest-countries-api-silk.vercel.app/).
+- [Demo](https://rest-countries-v1.vercel.app/).
 - [Solucion](https://github.com/joaopaulosf/REST-Countries-API).
 
 ## Author
