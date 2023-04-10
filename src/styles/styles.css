@@ -67,7 +67,7 @@ form, label{
 }
 
 form > button {
-    background: url("/src/images/search.svg") center no-repeat;
+    background: url("src/images/search.svg") center no-repeat;
     flex-basis: 25%;
     border: none;
     cursor: pointer;
@@ -113,11 +113,11 @@ nav ul {
     border-radius: 5px;
     width: 25%;
     cursor: pointer;
-    background:var(--darkElements) url(/src/images/filter.svg) center no-repeat;
+    background:var(--darkElements) url(src/images/filter.svg) center no-repeat;
 }
 
 label > button {
-    background: url("/src/images/expand.svg") center no-repeat;
+    background: url("src/images/expand.svg") center no-repeat;
     flex-basis: 25%;
     border: none;
     cursor: pointer;
@@ -228,7 +228,7 @@ label > button {
     width: 18%;
     height: 45px;
     border: none;
-    background: var(--darkElements) url(/src/images/arrow.svg) center no-repeat;
+    background: var(--darkElements) url(src/images/arrow.svg) center no-repeat;
     box-shadow: 1px 1px 10px -4px rgba(0, 0, 0, 0.726);
     cursor: pointer;
     border-radius: 5px;
