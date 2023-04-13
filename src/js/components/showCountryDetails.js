@@ -13,7 +13,7 @@ export default function showCountryDetails(data) {
                     <h1>${data.name.common}</h1>
                     <section class="innerLeft">
                         <p><strong>Native Name: </strong>${data.name.nativeName[Object.keys(data.name.nativeName)[0]].official}</p>
-                        <p><strong>Population: </strong>${data.population}</p>
+                        <p><strong>Population: </strong>${data.population.toLocaleString("en-US")}</p>
                         <p><strong>Region: </strong>${data.region}</p>
                         <p><strong>Sub Region: </strong>${data.subregion}</p>
                         <p><strong>Capital: </strong> ${data.capital}</p>

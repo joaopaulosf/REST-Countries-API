@@ -217,3 +217,8 @@ section > button {
     height: 45px;
     width: 18%;
 }
+
+.borders p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
