@@ -1,0 +1,54 @@
+:has(input[name="change-color"]:checked) .background-swap {
+    background-color: var(--white-background);
+    color: var(--white-color);
+}
+
+body:has(input[name="change-color"]:checked) .color-swap {
+    background-color: var(--white-elements);
+}
+
+body:has(input[name="change-color"]:checked) form > button {
+    background-image: url("/src/img/search-black.svg");
+}
+
+body:has(input[name="change-color"]:checked) section > label{
+    background-image: url("/src/img/filter-black.svg");
+}
+
+body:has(input[name="change-color"]:checked) section > button {
+    background-image: url("/src/img/arrow-black.svg");
+}
+
+.change-theme input {
+    display: none;
+}
+
+.change-theme {
+    background-color: var(--dark-background);
+    width: 55px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: none;
+}
+
+.change-theme::before {
+    position: absolute;
+    background: var(--white-elements) url("/src/img/sun.svg") center no-repeat;
+    width: 22px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    border-radius: 5px;
+    content: "";
+    transition: 0.1s;
+}
+
+.change-theme:has(input:checked) {
+    background-color: var(--white-background);
+}
+
+.change-theme:has(input:checked)::before {
+    left: calc(100% - 27px);
+    background-image: url("/src/img/moon.svg");
+}

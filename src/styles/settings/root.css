@@ -1,14 +1,11 @@
 :root {
-    --darkElements: hsl(207, 23%, 17%);
-    --darkBackground: hsl(210, 26%, 12%);
-    --darkColor: hsl(0, 0%, 100%);
-
-    --whiteElements: hsl(0, 0%, 100%);
-    --whiteBackground: hsl(0, 0%, 92%);
-    --whiteColor: hsl(200, 15%, 8%);
-
-    --shadow: hsla(0, 0%, 0%, 0.726);
-
-    --firstFont: 1.375rem;
-    --secondFont: 1.125rem;
+    --dark-elements: #212c35;
+    --dark-background: #171f27;
+    --dark-color: #fff;
+    --white-elements: #fff;
+    --white-background: #ebebeb;
+    --white-color: #111517;
+    --shadow: #000000b9;
+    --first-font: 1.375rem;
+    --second-font: 1.125rem;
 }
